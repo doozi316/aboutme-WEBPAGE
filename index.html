@@ -2,70 +2,36 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>자기소개 페이지 입니다.</title>
-<style>
-body {
-	background-color: #D3D3D3;
-	font-family: 'Noto Sans KR', sans-serif;
-	align: center;
-}
+<title>index</title>
 
-nav, section, footer {
-	background-color: white;
-	margin: 10px 10%;
-	padding: 20px;
-}
+<link rel="stylesheet" href="css/style.css">
 
-section {
-	padding: 10%;
-}
-
-section, footer {
-	text-align: center;
-}
-
-button {
-	width: 100px;
-	background-color: #f8585b;
-	border: none;
-	padding: 15px 0;
-	text-align: center;
-	font-size: 15px;
-	margin: 4px;
-
-}
-
-a {text-decoration: none;
-color: white;}
-
-</style>
 </head>
 <body>
 	<nav>
-		<button id="button1">
-			<a href="../index.html">홈</a>
-		</button>
-		<button id="button2">
-			<a href="../about.html">자기소개</a>
-		</button>
-		<button id="button3">
-			<a href="../photo.html">내 사진</a>
-		</button>
-		<button id="button4">
-			<a href="../index.html">몇시에요</a>
-		</button>
+		<ul>
+			<li><a href="index.html">홈</a></li>
+			<li><a href="aboutme.html">자기소개</a></li>
+			<li><a href="photo.html">내 사진</a></li>
+			<li><a href="#">몇시에요</a></li>
+		</ul>
 	</nav>
 	<section>
-		<h1>언젠가 풀 스택 개발자가 될 "김현진"</h1>
+		<h1>유능한 개발자가 될 "김현진"</h1>
 
-		즐기면서 개발공부에 임하고 있습니다! <br /> 울산 연암동 어딘가 살고 있어요
+		즐기면서 개발공부에 임하고 있습니다! <br/> 울산 연암동 어딘가 살고 있어요
+		<br/>
+		<br/>
+		<br/>
+		<input  type="button" value="자기소개" onClick="location.href='aboutme.html'">
+			<input type="button" value="내사진" onClick="location.href='photo.html'">
+
+<br/>
+<br/>
+<br/>
 
 
-
-
-
-
-
+<img src="image/ulsan.png">
 	</section>
 	<footer>http://doozi316.github.io</footer>
 
